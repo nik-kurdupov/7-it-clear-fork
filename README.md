@@ -29,8 +29,11 @@
 echo "Баг виправлено!" >> file_with_bug.txt
 
 
-8.git rm --cached passwords
-git checout main
+echo "*.env" >> .gitignore
+echo "passwords.txt" >> .gitignore
+git checkout main
+git merge fix-bug
+git push origin main
 
 ---
 
