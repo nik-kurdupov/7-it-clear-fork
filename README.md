@@ -1,3 +1,2 @@
-# 7-it-
-hello
-hello
+hello word 
+
